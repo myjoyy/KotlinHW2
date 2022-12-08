@@ -10,13 +10,8 @@ fun main() {
     println()
 
     println("TASK #2")
-    val likes = 231
 
-    val cnt = when(likes) {
-        11 -> "людям"
-
-        else -> "человеку"
-    }
+    val likes = 121
     val count = if ((likes - 1) % 10  == 0) "человеку" else if (likes <= 1) "человеку" else if (likes == 11)  "людям" else "людям"
     println("Понравилось  $likes $count")
 
